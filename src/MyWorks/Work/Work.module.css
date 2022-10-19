@@ -1,0 +1,16 @@
+.workBlock {
+    width:250px;
+    
+    background-color:lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:fit-content;
+
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: saddlebrown;
+}
