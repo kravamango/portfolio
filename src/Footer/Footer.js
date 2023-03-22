@@ -1,12 +1,13 @@
 import React from 'react';
 import style from "./Footer.module.css"
 import Foot from "./Foot/Foot";
+import styleContainer from './../Common/Styles/Container.module.css'
 
 const Contact = () => {
     return (
         <div className={style.footerBlock}>
-            <div className={style.footerContainer}>
-                <h2 className={style.title}>Footer</h2>
+            <div className={styleContainer.container}>
+                <h2 className={styleContainer.title}>Resume</h2>
                 <div className={style.footer}>
                     <Foot />
                     <Foot />
@@ -14,7 +15,7 @@ const Contact = () => {
                     <Foot />
 
                 </div>
-                <h3>Усе права Засчешчэны</h3>
+                <h3 className={style.titleFooter}>Усе права Засчешчэны</h3>
 
             </div>
         </div>

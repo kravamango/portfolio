@@ -1,27 +1,47 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color:green;
+
 }
 .skillsContainer {
     flex-direction: column;
     justify-content:flex-start;
-    border: 1px solid;
+    border: 1px solid #383838;
+    border-radius: 20px;
     height:100%;
-    width:80%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    /*justify-content:space-between;*/
-    /*flex-wrap: wrap;*/
+    align-items: start;
 }
 .title {
     background-color:red;
 }
 .skills {
-    border: 1px solid;
-    width:100%;
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.progressbar {
+    display: inline-block;
+    width: 100%;
+    background: rgba(12, 12, 12, 0.04);
+    border: 1px solid #383838;
+    border-radius: 20px;
+}
+.processJSColor {
+    background: #ffdb6e;
+    width: 40%;
+    border-radius: 20px;
+    color: #ffdb6e;
+}
+.processHTMLColor {
+    background: #ffdb6e;
+    width: 80%;
+    border-radius: 20px;
+    color: #ffdb6e;
+}
+.processCSSColor {
+    background: #ffdb6e;
+    width: 60%;
+    border-radius: 20px;
+    color: #ffdb6e;
 
 }

@@ -1,6 +1,6 @@
 .skillBlock {
     width:250px;
-    background-color:lightcoral;
+    background-color:#1e1e1f;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,21 +1,17 @@
 .footerBlock {
-    min-height: 20vh;
-    background-color: #459d8a;
+
+    border: 1px solid #383838;
+    border-radius: 20px;
+
 }
 .footerContainer {
-    flex-direction: column;
-    justify-content:flex-start;
-    border: 1px solid;
-    height:100%;
-    width:80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    min-height: 20vh;
+
 
 }
 .title {
     background-color:blue;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
@@ -25,6 +21,9 @@
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
-
+}
+.titleFooter{
+    display: flex;
+    justify-content: center;
 
 }

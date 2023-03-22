@@ -1,6 +1,32 @@
 .nav {
-    border:1px solid;
-    width: 300px;
+    background: #2a2a2b;
+    border: 1px solid #383838;
+    border-radius: 0 20px 0 20px;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    min-width: 0;
+    justify-content: flex-end;
+    height: 4rem;
+    padding-right: 2.375rem;
+    padding-left: 2.375rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.item {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.active {
+    color: #ffdb6e;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
